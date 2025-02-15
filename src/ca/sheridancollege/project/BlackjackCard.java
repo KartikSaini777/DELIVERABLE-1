@@ -2,11 +2,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
+/**
+ * Blackjack Game Implementation
+ * Created by: Kartik Saini, Jaskaran, Shahzaib Hassan
+ * Date: February 14, 2025
+ * Course: SYST 17796
+ */
+
 package ca.sheridancollege.project;
 
 public class BlackjackCard extends Card {
     private int value; // Value of the card (e.g., 10 for "10", "J", "Q", "K", 11 for "A")
-    private boolean isAce;  // Flag to indicate if the card is an Ace
+    private boolean isAce;  
 
     // Constructor that takes suit, rank, and value
     public BlackjackCard(String suit, String rank, int value) {

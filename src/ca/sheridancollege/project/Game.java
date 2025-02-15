@@ -1,8 +1,10 @@
 /**
- * SYST 17796 Project Base code.
- * Students can modify and extend to implement their game.
- * Add your name as an author and the date!
+ * Blackjack Game Implementation
+ * Created by: Kartik Saini, Jaskaran, Shahzaib Hassan
+ * Date: February 14, 2025
+ * Course: SYST 17796
  */
+
 package ca.sheridancollege.project;
 
 import java.util.ArrayList;
